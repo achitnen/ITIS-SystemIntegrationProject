@@ -33,4 +33,57 @@ http://167.71.175.220:8000/
 400	-Input Validation Failed
 500	-Internal Server Error
 
+# Setup
+
+
+1.Set the Key and Endpoint to the enviroment variables with variable names as COGNITIVE_SERVICE_KEY and COGNITIVE_END_POINT
+2.Make sure you have installed node, if not download and install the latest version of node
+3.Clone the repository to local machine
+4.Open terminal and run the command "npm i"
+5.To run the server locally use following command "node app.js"
+6.Test the server with the following endpoint "http://localhost:8000/"
+7.For swagger docs, use the following endpoint "http://localhost:8000/docs"
+
+# Example
+![image](https://github.com/achitnen/ITIS-SystemIntegrationProject/assets/123344473/00d1196f-6ab4-43ea-9aca-40de2f256d3a)
+
+# Request Body
+{"image":"https://www.verywellfamily.com/thmb/fd4eFa4Z75HANMJ0JPrnm0e3jsI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grandfather-and-grandson-reading-at-lake-555799527-5ac7c84143a1030036c1b221.jpg"}
+
+# Response Body
+{
+    "description": {
+        "tags": [
+            "man",
+            "outdoor",
+            "person"
+        ],
+        "captions": [
+            {
+                "text": "a man and a child sitting on a bench by a lake",
+                "confidence": 0.5236660838127136
+            }
+        ]
+    },
+    "objects": [
+        {
+            "rectangle": {
+                "x": 124,
+                "y": 77,
+                "w": 167,
+                "h": 346
+            },
+            "object": "person",
+            "confidence": 0.763
+        }
+    ],
+    "requestId": "6e15608f-e8dc-476a-a051-5578a3fd081b",
+    "metadata": {
+        "width": 750,
+        "height": 500,
+        "format": "webp"
+    },
+    "modelVersion": "2021-05-01"
+}
+
 
