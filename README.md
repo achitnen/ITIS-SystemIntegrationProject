@@ -39,12 +39,19 @@ http://167.71.175.220:8000/
 
 
 1.Set the Key and Endpoint to the enviroment variables with variable names as COGNITIVE_SERVICE_KEY and COGNITIVE_END_POINT
+
 2.Make sure you have installed node, if not download and install the latest version of node
+
 3.Clone the repository to local machine
+
 4.Open terminal and run the command "npm i"
+
 5.To run the server locally use following command "node app.js"
+
 6.Test the server with the following endpoint "http://localhost:8000/"
+
 7.For swagger docs, use the following endpoint "http://localhost:8000/docs"
+
 
 # Example
 ![image](https://github.com/achitnen/ITIS-SystemIntegrationProject/assets/123344473/00d1196f-6ab4-43ea-9aca-40de2f256d3a)
