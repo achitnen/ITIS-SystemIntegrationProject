@@ -22,7 +22,7 @@ Temporarily the API is hosted in one of the droplets in Digital Ocean, to run so
 # Server EndPoint
 http://167.71.175.220:8000/
 # API EndPoint
-[http://167.71.175.220:8000/](http://167.71.175.220:8000/api/v1/image)
+[http://167.71.175.220:8000/api/v1/image](http://167.71.175.220:8000/api/v1/image)
 
 # Request Headers:
 
@@ -51,7 +51,20 @@ http://167.71.175.220:8000/
 6.Test the server with the following endpoint "http://localhost:8000/"
 
 7.For swagger docs, use the following endpoint "http://localhost:8000/docs"
+# Input Requirements
+Input requirements:
 
+Supported image formats: JPEG, PNG, BMP, PDF and TIFF.
+
+Please do note MPO (Multi Picture Objects) embedded JPEG files are not supported.
+
+For multi-page PDF and TIFF documents: currently, this API is supporting 2 pages processing only.
+
+Image file size must be less than 4 MB.
+
+The image/document page dimensions must be at least 50 x 50 pixels and at most 10000 x 10000 pixels.
+
+The PDF file dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 
 # Example
 ![image](https://github.com/achitnen/ITIS-SystemIntegrationProject/assets/123344473/00d1196f-6ab4-43ea-9aca-40de2f256d3a)
