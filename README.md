@@ -60,7 +60,9 @@ http://167.71.175.220:8000/
 {"image":"https://www.verywellfamily.com/thmb/fd4eFa4Z75HANMJ0JPrnm0e3jsI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grandfather-and-grandson-reading-at-lake-555799527-5ac7c84143a1030036c1b221.jpg"}
 
 # Response Body
+
 {
+
     "description": {
         "tags": [
             "man",
