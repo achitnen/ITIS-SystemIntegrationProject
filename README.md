@@ -30,7 +30,9 @@ http://167.71.175.220:8000/
 
 # Possible Responses
 200 -	OK
+
 400	-Input Validation Failed
+
 500	-Internal Server Error
 
 # Setup
