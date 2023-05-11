@@ -5,9 +5,13 @@ Contemporary methods to interpret photos and returning data are accessible throu
 
 Based on the content of the image, this procedure extracts a wide range of visual elements.
 
+# Working of API
+
 JSON will be provided as a successful answer. If the request was a failure, a message and error code will be sent in the response to assist you figure out what went wrong.
 
-To extract a wide range of visual characteristics out of various images, we are using the Computer Vision Image Analysis service. It can decide whether an image contains explicit content, whether the subject is male or female, find certain products or brands, or look for human faces, for example. Typically, image analysis can identify human faces in a picture and generate rectangular coordinates for each one. Actually, the Analyze Image API provides a face detection feature.
+o extract a wide range of visual characteristics out of various images, we are using the Computer Vision Image Analysis service. It can decide whether an image contains explicit content, whether the subject is male or female, find certain products or brands, or look for human faces, for example. Typically, image analysis can identify human faces in a picture and generate rectangular coordinates for each one. Actually, the Analyze Image API provides a face detection feature.
+
+# Image Recognition
 
 Computer vision methods known as object recognition are used to identify objects in images and movies.
 
