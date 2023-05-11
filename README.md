@@ -21,6 +21,10 @@ Images that match the following criteria are used for image analysis: Any one of
 Temporarily the API is hosted in one of the droplets in Digital Ocean, to run some tests and checkout the functionality
 # Server EndPoint
 http://167.71.175.220:8000/
+
+# Swagger API
+http://167.71.175.220:8000/docs/
+
 # API EndPoint
 [http://167.71.175.220:8000/api/v1/image](http://167.71.175.220:8000/api/v1/image)
 
