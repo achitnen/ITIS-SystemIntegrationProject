@@ -16,3 +16,21 @@ o extract a wide range of visual characteristics out of various images, we are u
 Computer vision methods known as object recognition are used to identify objects in images and movies.
 
 Images that match the following criteria are used for image analysis: Any one of the following file types—JPEG, PNG, GIF, or BMP—must be used for the image. The image file must not exceed four megabytes (MB). The image must be more than 50 x 50 pixels in size and less than 16,000 x 16,000 pixels in size.
+
+# Try Out
+Temporarily the API is hosted in one of the droplets in Digital Ocean, to run some tests and checkout the functionality
+# Server EndPoint
+http://167.71.175.220:8000/
+# API EndPoint
+[http://167.71.175.220:8000/](http://167.71.175.220:8000/api/v1/image)
+
+# Request Headers:
+
+'Content-Type': 'application/json'
+
+# Possible Responses
+200 -	OK
+400	-Input Validation Failed
+500	-Internal Server Error
+
+![image](https://github.com/achitnen/ITIS-SystemIntegrationProject/assets/123344473/f46026f4-5249-4fee-8e16-7137e0406097)
