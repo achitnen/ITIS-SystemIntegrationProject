@@ -1,5 +1,5 @@
 # ITIS-SystemIntegrationProject
-# Using the Analyze Image API
+ Using the [Analyze Image API](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview-image-analysis?tabs=3-2)
 
 Contemporary methods to interpret photos and returning data are accessible through the Computer Vision API. It can be used to, amid other things, find all the faces in an image or recognize whether an image contains mature content. Additional features include identifying image content, anticipating dominant and accent colors, and describing photographs utilizing full English words. In addition, it has the ability to cleverly create thumbnails for huge photographs to display them effective.
 
