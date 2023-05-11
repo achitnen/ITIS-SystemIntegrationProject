@@ -33,4 +33,4 @@ http://167.71.175.220:8000/
 400	-Input Validation Failed
 500	-Internal Server Error
 
-![image](https://github.com/achitnen/ITIS-SystemIntegrationProject/assets/123344473/f46026f4-5249-4fee-8e16-7137e0406097)
+
